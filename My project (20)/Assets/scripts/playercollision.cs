@@ -12,6 +12,9 @@ public class playercollision : MonoBehaviour
         {
 
             movement.enabled = false;
+            
+            FindObjectOfType<GameManament>().EndGame();
+            
 
         }
         
