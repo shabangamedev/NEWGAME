@@ -240,13 +240,14 @@ GameObject:
   - component: {fileID: 214852565}
   - component: {fileID: 214852564}
   - component: {fileID: 214852566}
+  - component: {fileID: 214852567}
   m_Layer: 5
   m_Name: EndLevel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &214852563
 RectTransform:
   m_ObjectHideFlags: 0
@@ -316,7 +317,7 @@ Animator:
   m_GameObject: {fileID: 214852562}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 96b8205bc92e7254da33be5936cf984b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 897c872d4c4a9984f8328d3b6e5241b6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -327,6 +328,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &214852567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214852562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a32d5742f96229a4b84e3000c3ee21eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &215135639
 GameObject:
   m_ObjectHideFlags: 0
